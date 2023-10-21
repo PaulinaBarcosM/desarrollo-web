@@ -1,0 +1,159 @@
+/* font-family: 'Bodoni Moda', serif; */
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+ol ul{
+    list-style: none;
+}
+
+.textoCentrado{
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+    padding: 10px 20px;
+}
+
+footer ul li a{
+    color: white;
+    padding: 0 20px;
+    position: relative;
+    top: 1150px;
+    left: 1100px;
+}
+
+/* --------Tipografía */
+.claseTipografía{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+    color: white;
+}
+
+/* --------Barra de navegación */
+header nav ul li{
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
+    left: 600px;
+}
+footer ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    padding: 0 20px;
+    margin: 0 20px;
+    color: white;
+}
+
+/* --------Imagenes */
+img{
+    width: 400px;
+    height: 500px;
+}
+
+/* ---------Fondo e index */
+#body_index{
+    color: white;
+    background-image: url(../imagenes/fondoprincipalnegybla.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 1800px;
+}
+.index_h2{
+    text-align: center;
+    margin: 200px 0 70px 0;
+}
+.index_parrafo{
+    text-align: center;
+}
+
+/* ----------Fondo y pary */
+#body_pary{
+    color: white;
+    background-color: black;
+}
+.paryParrafo{
+    font-size: 20px;
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+/* ---------Fondo y urban */
+#body_urban{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+    background-color: black;
+}
+.urban_h2{
+    margin: 20px 0 20px 0;
+}
+
+/* ---------Fondo classic */
+#body_classic{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 300;
+    background-color: black;
+}
+
+/* --------Fondo y longin */
+#body_longin{
+    color: white;
+    background-image: url(../imagenes/imgbodylongin.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 2500px;
+}
+#main_longin{
+    margin: 70px 0 0 15px;
+}
+.longin_h3{
+    font-size: 25px;
+    margin: 15px 1200px 25px 0;
+    padding: 4px 0 4px 25px;
+    border: 3px solid white;
+}
+.longin_h4{
+    border: 3px solid white;
+    padding: 5px 0 5px 0;
+    margin: 100px 600px 100px 600px;
+}
+
+/* --------Flexbox */
+.photos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.photos2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.barraNavegacion{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
